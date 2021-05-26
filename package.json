@@ -1,0 +1,30 @@
+{
+  "name": "github-api-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "concurrently \"nodemon src/server.js\" \"npm run start --prefix client\""
+  },
+  "type": "module",
+  "author": "Ahmed Jadli",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@material-ui/lab": "*",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.11",
+    "mongoose-unique-validator": "^2.0.3"
+  }
+}
